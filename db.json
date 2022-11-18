@@ -242,7 +242,7 @@
 		  "datumDo": "2022-11-17T19:50:18.957Z"
 		}
 	  ],
-	  "spol": "M: 2",
+	  "spol": "2",
 	  "ime": "Ucenik2Ime",
 	  "prezime": "Ucenik2Prezime",
 	  "oib": "123123123431"
@@ -490,7 +490,7 @@
 		  "datumDo": "2022-11-17T19:50:18.957Z"
 		}
 	  ],
-	  "spol": "M: 1",
+	  "spol": "1",
 	  "ime": "Ucenik1Ime",
 	  "prezime": "Ucenik1Prezime",
 	  "oib": "123123123231"
