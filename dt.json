@@ -1,0 +1,499 @@
+{ "entities":[
+	{
+	  "narodnostId": 2,
+	  "nacionalnaManjina": 2,
+	  "izvanSustava": false,
+	  "drzavaId": 2,
+	  "roditelji": {
+		"majka": {
+		  "ime": "Mara",
+		  "imeGenitiv": "mari",
+		  "prezime": "Marić"
+		},
+		"otac": {
+		  "ime": "Mato",
+		  "imeGenitiv": "string",
+		  "prezime": "Marić"
+		}
+	  },
+	  "drzavljanstva": [
+		{
+		  "ucenikDrzavljanstvoId": 1,
+		  "drzavljanstvoId": 1,
+		  "datumOd": "1.1.2021.",
+		  "datumDo": "1.1.2021."
+		}
+	  ],
+	  "rodjenje": {
+		"datum": "2022-11-17T19:50:18.957Z",
+		"mjesto": "virovitica",
+		"mjestoId": 1,
+		"drzavaId": 1
+	  },
+	  "adresa": [
+		{
+		  "ucenikAdresaId": 1,
+		  "adresaTipId": 0,
+		  "boravisteRazlogId": 0,
+		  "datumOd": "2022-11-17T19:50:18.957Z",
+		  "datumDo": "2022-11-17T19:50:18.957Z",
+		  "adresaId": 0,
+		  "mjestoId": 0,
+		  "mjesto": "string",
+		  "adresa1": "string",
+		  "adresa2": "string",
+		  "pp": "string"
+		}
+	  ],
+	  "komunikacija": [
+		{
+		  "ucenikKomunikacijaId": 1,
+		  "detalji": {
+			"tipKomunikacijeId": 1,
+			"vrijednost": "string",
+			"napomena": "no info"
+		  }
+		}
+	  ],
+	  "ustanova": [
+		{
+		  "skolskaGodina": [
+			{
+			  "ucenikSkolskaGodinaId": 1,
+			  "skolskaGodinaId": 1,
+			  "produzenaNastava": true,
+			  "cjelodnevniBoravak": true,
+			  "predstavnickaUloga": "string",
+			  "izvanskolskeAktivnosti": "string",
+			  "izvanskolskeAktivnostiStraniJezik": "string",
+			  "izvannastavneAktivnosti": "string",
+			  "izvannastavneAktivnostiStraniJezik": "string",
+			  "pedagoskeMjere": [
+				{
+				  "ucenikPedagoskaMjeraId": 1,
+				  "vrstaPedagoskeMjereId": 1,
+				  "datum": "string"
+				}
+			  ],
+			  "programi": [
+				{
+				  "programId": 1,
+				  "maticniBroj": "string",
+				  "odjeljenje": {
+					"oznaka": "string",
+					"razred": [
+					  {
+						"razredId": 1,
+						"statusId": 1,
+						"akceleriran": true,
+						"razdoblje": [
+						  {
+							"ucenikProgramRazdobljeId": 0,
+							"razdobljeId": 0,
+							"vladanjeId": 0,
+							"zavrsnoMisljenjePreporuka": "string",
+							"uspjeh": {
+							  "ocjena": 0,
+							  "prosjek": 0
+							},
+							"uspjehZaNaukovanje": {
+							  "ocjena": 0,
+							  "prosjek": 0
+							},
+							"izostanci": {
+							  "opravdani": 0,
+							  "neopravdani": 0
+							},
+							"predmeti": [
+							  {
+								"predmetId": 1,
+								"status": 1,
+								"statusStranogJezikaId": 0,
+								"grupaPredmetaZaSvjedodzbu": 1,
+								"jezik": 1,
+								"ocjenaId": 1,
+								"opisnaOcjena": "string"
+							  }
+							],
+							"dopunskaNastava": [
+							  {
+								"predmetId": 1
+							  }
+							],
+							"dodatnaNastava": [
+							  {
+								"predmetId": 1
+							  }
+							]
+						  }
+						],
+						"ispiti": [
+						  {
+							"vrstaIspitaId": 0,
+							"datum": "2022-11-17T19:50:18.957Z",
+							"ocjena": 0,
+							"predmetId": 0,
+							"statusId": 0
+						  }
+						],
+						"razredniIspit": [
+						  {
+							"datum": "2022-11-17T19:50:18.957Z",
+							"ispiti": [
+							  {
+								"vrstaIspitaId": 0,
+								"datum": "2022-11-17T19:50:18.957Z",
+								"ocjena": 0,
+								"predmetId": 0,
+								"statusId": 0
+							  }
+							]
+						  }
+						],
+						"dokumenti": [
+						  {
+							"sifra": "string",
+							"datum": "2022-11-17T19:50:18.957Z",
+							"klasa": "string",
+							"urBroj": "string",
+							"napomena": "string"
+						  }
+						],
+						"zakljucano": true,
+						"svjedodzbaID": 0,
+						"probnaSvjedodzbaID": 0,
+						"zavrsniRad": {
+						  "datumPocetkaIzrade": "2022-11-17T19:50:18.957Z",
+						  "datumZavrsetkaObrane": "2022-11-17T19:50:18.957Z",
+						  "skolskaGodinaUpisaPrograma": 0,
+						  "tema": "string",
+						  "mentor": {
+							"ime": "string",
+							"prezime": "string",
+							"oib": "string"
+						  },
+						  "izrada": [
+							{
+							  "datumPolaganja": "2022-11-17T19:50:18.957Z",
+							  "rok": 0,
+							  "ocjena": 0
+							}
+						  ],
+						  "obrana": [
+							{
+							  "datumPolaganja": "2022-11-17T19:50:18.957Z",
+							  "rok": 0,
+							  "ocjena": 0
+							}
+						  ]
+						},
+						"produljenoObrazovanje": true,
+						"pspID": 0,
+						"nastavaUKuci": true,
+						"godinaNaukovanjaID": 0
+					  }
+					]
+				  },
+				  "teskoce": [
+					{
+					  "teskocaId": 1,
+					  "institucija": "string",
+					  "datum": "2022-11-17T19:50:18.957Z",
+					  "klasa": "string",
+					  "urBroj": "string",
+					  "primarna": true
+					}
+				  ],
+				  "ucenikSTeskocama": {
+					"imaTeskoce": true,
+					"uzPrilagodbu": true,
+					"invividualniPristup": true
+				  }
+				}
+			  ],
+			  "prijevoz": {
+				"putnik": true,
+				"datumDo": "2022-11-17T19:50:18.957Z",
+				"kombiniraniPrijevoz": true,
+				"kategorijaSubvencije": 0,
+				"smjestenDom": true,
+				"posebanOblik": true,
+				"napomena": "string",
+				"datumIzmjene": "2022-11-17T19:50:18.957Z",
+				"izmjenuNapravio": "string",
+				"relacijaPrijevoza": [
+				  {
+					"relacijaOd": 0,
+					"relacijaDo": 0,
+					"prijevoznik": 0,
+					"kilometraza": 0,
+					"cijena": 0
+				  }
+				]
+			  }
+			}
+		  ],
+		  "ustanovaId": 0,
+		  "sifra": "string",
+		  "podsifra": "string",
+		  "maticniBrojUSkoli": "string",
+		  "maticna": true,
+		  "datumOd": "2022-11-17T19:50:18.957Z",
+		  "datumDo": "2022-11-17T19:50:18.957Z"
+		}
+	  ],
+	  "spol": "M: 2",
+	  "ime": "Ucenik2Ime",
+	  "prezime": "Ucenik2Prezime",
+	  "oib": "123123123431"
+	},
+	{
+	  "narodnostId": 2,
+	  "nacionalnaManjina": 2,
+	  "izvanSustava": false,
+	  "drzavaId": 2,
+	  "roditelji": {
+		"majka": {
+		  "ime": "Mara2",
+		  "imeGenitiv": "mari",
+		  "prezime": "Marić2"
+		},
+		"otac": {
+		  "ime": "Mato2",
+		  "imeGenitiv": "string",
+		  "prezime": "Marić2"
+		}
+	  },
+	  "drzavljanstva": [
+		{
+		  "ucenikDrzavljanstvoId": 2,
+		  "drzavljanstvoId": 2,
+		  "datumOd": "1.1.2022.",
+		  "datumDo": "1.1.2022."
+		}
+	  ],
+	  "rodjenje": {
+		"datum": "2022-11-17T19:50:18.957Z",
+		"mjesto": "virovitica",
+		"mjestoId": 2,
+		"drzavaId": 2
+	  },
+	  "adresa": [
+		{
+		  "ucenikAdresaId": 2,
+		  "adresaTipId": 2,
+		  "boravisteRazlogId": 2,
+		  "datumOd": "2022-11-17T19:50:18.957Z",
+		  "datumDo": "2022-11-17T19:50:18.957Z",
+		  "adresaId": 2,
+		  "mjestoId": 2,
+		  "mjesto": "string",
+		  "adresa1": "string",
+		  "adresa2": "string",
+		  "pp": "string"
+		}
+	  ],
+	  "komunikacija": [
+		{
+		  "ucenikKomunikacijaId": 2,
+		  "detalji": {
+			"tipKomunikacijeId": 2,
+			"vrijednost": "string",
+			"napomena": "no info"
+		  }
+		}
+	  ],
+	  "ustanova": [
+		{
+		  "skolskaGodina": [
+			{
+			  "ucenikSkolskaGodinaId": 2,
+			  "skolskaGodinaId": 2,
+			  "produzenaNastava": true,
+			  "cjelodnevniBoravak": true,
+			  "predstavnickaUloga": "string",
+			  "izvanskolskeAktivnosti": "string",
+			  "izvanskolskeAktivnostiStraniJezik": "string",
+			  "izvannastavneAktivnosti": "string",
+			  "izvannastavneAktivnostiStraniJezik": "string",
+			  "pedagoskeMjere": [
+				{
+				  "ucenikPedagoskaMjeraId": 2,
+				  "vrstaPedagoskeMjereId": 2,
+				  "datum": "string"
+				}
+			  ],
+			  "programi": [
+				{
+				  "programId": 2,
+				  "maticniBroj": "string",
+				  "odjeljenje": {
+					"oznaka": "string",
+					"razred": [
+					  {
+						"razredId": 2,
+						"statusId": 2,
+						"akceleriran": true,
+						"razdoblje": [
+						  {
+							"ucenikProgramRazdobljeId": 2,
+							"razdobljeId": 2,
+							"vladanjeId": 2,
+							"zavrsnoMisljenjePreporuka": "string",
+							"uspjeh": {
+							  "ocjena": 2,
+							  "prosjek": 2
+							},
+							"uspjehZaNaukovanje": {
+							  "ocjena": 2,
+							  "prosjek": 2
+							},
+							"izostanci": {
+							  "opravdani": 2,
+							  "neopravdani": 2
+							},
+							"predmeti": [
+							  {
+								"predmetId": 1,
+								"status": 1,
+								"statusStranogJezikaId": 0,
+								"grupaPredmetaZaSvjedodzbu": 1,
+								"jezik": 1,
+								"ocjenaId": 1,
+								"opisnaOcjena": "string"
+							  }
+							],
+							"dopunskaNastava": [
+							  {
+								"predmetId": 1
+							  }
+							],
+							"dodatnaNastava": [
+							  {
+								"predmetId": 1
+							  }
+							]
+						  }
+						],
+						"ispiti": [
+						  {
+							"vrstaIspitaId": 0,
+							"datum": "2022-11-17T19:50:18.957Z",
+							"ocjena": 0,
+							"predmetId": 0,
+							"statusId": 0
+						  }
+						],
+						"razredniIspit": [
+						  {
+							"datum": "2022-11-17T19:50:18.957Z",
+							"ispiti": [
+							  {
+								"vrstaIspitaId": 0,
+								"datum": "2022-11-17T19:50:18.957Z",
+								"ocjena": 0,
+								"predmetId": 0,
+								"statusId": 0
+							  }
+							]
+						  }
+						],
+						"dokumenti": [
+						  {
+							"sifra": "string",
+							"datum": "2022-11-17T19:50:18.957Z",
+							"klasa": "string",
+							"urBroj": "string",
+							"napomena": "string"
+						  }
+						],
+						"zakljucano": true,
+						"svjedodzbaID": 0,
+						"probnaSvjedodzbaID": 0,
+						"zavrsniRad": {
+						  "datumPocetkaIzrade": "2022-11-17T19:50:18.957Z",
+						  "datumZavrsetkaObrane": "2022-11-17T19:50:18.957Z",
+						  "skolskaGodinaUpisaPrograma": 0,
+						  "tema": "string",
+						  "mentor": {
+							"ime": "string",
+							"prezime": "string",
+							"oib": "string"
+						  },
+						  "izrada": [
+							{
+							  "datumPolaganja": "2022-11-17T19:50:18.957Z",
+							  "rok": 0,
+							  "ocjena": 0
+							}
+						  ],
+						  "obrana": [
+							{
+							  "datumPolaganja": "2022-11-17T19:50:18.957Z",
+							  "rok": 0,
+							  "ocjena": 0
+							}
+						  ]
+						},
+						"produljenoObrazovanje": true,
+						"pspID": 0,
+						"nastavaUKuci": true,
+						"godinaNaukovanjaID": 0
+					  }
+					]
+				  },
+				  "teskoce": [
+					{
+					  "teskocaId": 1,
+					  "institucija": "string",
+					  "datum": "2022-11-17T19:50:18.957Z",
+					  "klasa": "string",
+					  "urBroj": "string",
+					  "primarna": true
+					}
+				  ],
+				  "ucenikSTeskocama": {
+					"imaTeskoce": true,
+					"uzPrilagodbu": true,
+					"invividualniPristup": true
+				  }
+				}
+			  ],
+			  "prijevoz": {
+				"putnik": true,
+				"datumDo": "2022-11-17T19:50:18.957Z",
+				"kombiniraniPrijevoz": true,
+				"kategorijaSubvencije": 0,
+				"smjestenDom": true,
+				"posebanOblik": true,
+				"napomena": "string",
+				"datumIzmjene": "2022-11-17T19:50:18.957Z",
+				"izmjenuNapravio": "string",
+				"relacijaPrijevoza": [
+				  {
+					"relacijaOd": 0,
+					"relacijaDo": 0,
+					"prijevoznik": 0,
+					"kilometraza": 0,
+					"cijena": 0
+				  }
+				]
+			  }
+			}
+		  ],
+		  "ustanovaId": 0,
+		  "sifra": "string",
+		  "podsifra": "string",
+		  "maticniBrojUSkoli": "string",
+		  "maticna": true,
+		  "datumOd": "2022-11-17T19:50:18.957Z",
+		  "datumDo": "2022-11-17T19:50:18.957Z"
+		}
+	  ],
+	  "spol": "M: 1",
+	  "ime": "Ucenik1Ime",
+	  "prezime": "Ucenik1Prezime",
+	  "oib": "123123123231"
+	}
+ ]
+}
