@@ -63,7 +63,48 @@
 					  {
 						"razredId": 1,
 						"statusId": 1,
-						"akceleriran": true,											
+						"akceleriran": true,
+						  "razdoblje": [
+						      {
+							"ucenikProgramRazdobljeId": 0,
+							"razdobljeId": 0,
+							"vladanjeId": 0,
+							"zavrsnoMisljenjePreporuka": "string",
+							"uspjeh": {
+							  "ocjena": 0,
+							  "prosjek": 0
+							},
+							"uspjehZaNaukovanje": {
+							  "ocjena": 0,
+							  "prosjek": 0
+							},
+							"izostanci": {
+							  "opravdani": 0,
+							  "neopravdani": 0
+							},
+							"predmeti": [
+							  {
+							    "predmetId": 1,
+							    "status": 0,
+							    "statusStranogJezikaId": 0,
+							    "grupaPredmetaZaSvjedodzbu": 0,
+							    "jezik": 0,
+							    "ocjenaId": 1,
+							    "opisnaOcjena": "string"
+							  }
+							],
+							"dopunskaNastava": [
+							  {
+							    "predmetId": 0
+							  }
+							],
+							"dodatnaNastava": [
+							  {
+							    "predmetId": 0
+							  }
+							]
+						      }
+						    ],
 						"dokumenti": [
 						  {
 							"sifra": "string",
@@ -173,7 +214,48 @@
 					  {
 						"razredId": 1,
 						"statusId": 1,
-						"akceleriran": true,											
+						"akceleriran": true,	
+						  "razdoblje": [
+						      {
+							"ucenikProgramRazdobljeId": 0,
+							"razdobljeId": 0,
+							"vladanjeId": 0,
+							"zavrsnoMisljenjePreporuka": "string",
+							"uspjeh": {
+							  "ocjena": 0,
+							  "prosjek": 0
+							},
+							"uspjehZaNaukovanje": {
+							  "ocjena": 0,
+							  "prosjek": 0
+							},
+							"izostanci": {
+							  "opravdani": 0,
+							  "neopravdani": 0
+							},
+							"predmeti": [
+							  {
+							    "predmetId": 1,
+							    "status": 0,
+							    "statusStranogJezikaId": 0,
+							    "grupaPredmetaZaSvjedodzbu": 0,
+							    "jezik": 0,
+							    "ocjenaId": 1,
+							    "opisnaOcjena": "string"
+							  }
+							],
+							"dopunskaNastava": [
+							  {
+							    "predmetId": 0
+							  }
+							],
+							"dodatnaNastava": [
+							  {
+							    "predmetId": 0
+							  }
+							]
+						      }
+						    ],
 						"dokumenti": [
 						  {
 							"sifra": "string",
