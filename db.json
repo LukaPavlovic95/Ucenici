@@ -92,7 +92,7 @@
 					"invividualniPristup": true
 				  }
 				}
-		      ],
+		      ]
 			 }
 			],
 		  "ustanovaId": 0,
@@ -102,7 +102,7 @@
 		  "maticna": true,
 		  "datumOd": "2022-11-17T19:50:18.957Z",
 		  "datumDo": "2022-11-17T19:50:18.957Z"
-		},
+		}
 	  ],
 	  "spol": 2,
 	  "ime": "Ucenik2Ime",
@@ -182,9 +182,9 @@
 							"urBroj": "string",
 							"napomena": "string"
 						  }
-						],					
+						]				
 					   }
-					],
+					]
 				  },
 				  "teskoce": [
 					{
@@ -202,7 +202,7 @@
 					"invividualniPristup": true
 				  }
 				}
-		      ],
+		      ]
 			 }
 			],
 		  "ustanovaId": 0,
@@ -212,7 +212,7 @@
 		  "maticna": true,
 		  "datumOd": "2022-11-17T19:50:18.957Z",
 		  "datumDo": "2022-11-17T19:50:18.957Z"
-		},
+		}
 	  ],
 	  "spol": 2,
 	  "ime": "Ucenik2Ime",
