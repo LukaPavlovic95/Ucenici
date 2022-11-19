@@ -74,7 +74,6 @@
 						  }
 						],					
 						},
-					  }
 					]
 				  },
 				  "teskoce": [
@@ -93,8 +92,6 @@
 					"invividualniPristup": true
 				  }
 				}
-			  ],
-			}
 		  ],
 		  "ustanovaId": 0,
 		  "sifra": "string",
@@ -103,21 +100,23 @@
 		  "maticna": true,
 		  "datumOd": "2022-11-17T19:50:18.957Z",
 		  "datumDo": "2022-11-17T19:50:18.957Z"
+		},
+	  ]
 		}
-	  ],
+		],
 	  "spol": 2,
 	  "ime": "Ucenik2Ime",
 	  "prezime": "Ucenik2Prezime",
 	  "oib": "11111111111"
 	},
-	{
+    {
 	  "id": 22222222222,
 	  "narodnostId": 2,
 	  "nacionalnaManjina": 2,
 	  "drzavaId": 2,
 	  "roditelji": {
 		"majka": {
-		  "ime": "Mara2",
+		  "ime": "Mara",
 		  "imeGenitiv": "mari",
 		  "prezime": "Marić"
 		},
@@ -185,7 +184,6 @@
 						  }
 						],					
 						},
-					  }
 					]
 				  },
 				  "teskoce": [
@@ -204,8 +202,6 @@
 					"invividualniPristup": true
 				  }
 				}
-			  ],
-			}
 		  ],
 		  "ustanovaId": 0,
 		  "sifra": "string",
@@ -214,12 +210,14 @@
 		  "maticna": true,
 		  "datumOd": "2022-11-17T19:50:18.957Z",
 		  "datumDo": "2022-11-17T19:50:18.957Z"
+		},
+	  ]
 		}
-	  ],
+		],
 	  "spol": 2,
 	  "ime": "Ucenik2Ime",
 	  "prezime": "Ucenik2Prezime",
 	  "oib": "22222222222"
-	}
+	}	
 ]
 }
